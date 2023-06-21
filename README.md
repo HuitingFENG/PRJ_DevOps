@@ -88,4 +88,4 @@
     - Or run the task with the specific tag 
     - Check the result6 as below
 #### result6 :
-![lab3_single.png](./images/lab3_single.png "This is the result of lab3_single")
+![lab3_tag.png](./images/lab3_tag.png "This is the result of lab3_tag")
