@@ -82,10 +82,9 @@
     - Edit the file by copying all content of playbook.yml under the Ansible folder
     - Run the playbook's all tasks with just one command line : ansible-playbook playbook.yml
     - Check the result5 as below
-#### result5 :
-![lab3_all.png](./images/lab3_all.png "This is the result of lab3_all")
-
     - Or run the task with the specific tag 
     - Check the result6 as below
+#### result5 :
+![lab3_all.png](./images/lab3_all.png "This is the result of lab3_all")
 #### result6 :
 ![lab3_tag.png](./images/lab3_tag.png "This is the result of lab3_tag")
