@@ -15,6 +15,10 @@ java -version
 echo "Installing git"
 sudo apt-get -y install git
 
+echo "Installing glibc"
+sudo apt-get update
+sudo apt-get upgrade glibc
+
 echo "Installing git-ftp"
 sudo apt-get -y install git-ftp
 
