@@ -64,4 +64,28 @@
 #### result3 :
 ![lab2_nginx.png](./images/lab2_nginx.png "This is the result of lab2_nginx")
 
+
 ### LAB3
+1. Install Ansible in VM with vagrant
+    - Create a folder called Ansible
+    - Create a file called install_ansible.sh and copy all command lines into the file
+    - Initialize a Vagrantfile with : vagrant init ubuntu/bionic64
+    - Configure the Vagrantfile to install ansible into VM
+    - Run : vagrant up, vagrant ssh
+    - Check version with : ansible --version
+#### result4 :
+![lab3_ansible.png](./images/lab3_ansible.png "This is the result of lab3_ansible")
+
+2. Create an Ansible Playbook
+    - Ensure in the VM environment
+    - Create a file called playbook.yml with : nano playbook.yml
+    - Edit the file by copying all content of playbook.yml under the Ansible folder
+    - Run the playbook's all tasks with just one command line : ansible-playbook playbook.yml
+    - Check the result5 as below
+#### result5 :
+![lab3_all.png](./images/lab3_all.png "This is the result of lab3_all")
+
+    - Or run the task with the specific tag 
+    - Check the result6 as below
+#### result6 :
+![lab3_single.png](./images/lab3_single.png "This is the result of lab3_single")

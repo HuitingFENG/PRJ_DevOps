@@ -1,0 +1,32 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: Install a system package (e.g., tree)
+      apt:
+        name: tree
+        state: present
+      
+    - name: Conditional - Install a system package (e.g., htop)
+      apt:
+        name: htop
+        state: present
+      tags: install_system_package
+      
+    - name: Conditional - Remove a system package (e.g., htop)
+      apt:
+        name: htop
+        state: absent
+      tags: remove_system_package
+
+    - name: Conditional - Install an application (e.g., git)
+      apt:
+        name: git
+        state: present
+      tags: install_application
+      
+    - name: Conditional - Remove an application (e.g., git)
+      apt:
+        name: git
+        state: absent
+      tags: remove_application
