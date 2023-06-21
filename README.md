@@ -10,8 +10,9 @@
 
 
 ### LAB2
-#### result :
+#### result1 :
 ![lab2_wordpress.png](./images/lab2_wordpress.png "This is the result of lab2_wordpress")
+#### result2 :
 ![lab2_nginx.png](./images/lab2_nginx.png "This is the result of lab2_nginx")
 
 ### LAB3
