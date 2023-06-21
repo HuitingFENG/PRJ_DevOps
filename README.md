@@ -17,6 +17,8 @@
     - sudo apt-get install openjdk-11-jdk
 4. Check the status of jenkins by running : systemctl status jenkins
 5. Go to the browser (localhost:8080) and start configure jenkins by the link (cf4.)
+6. follow the link (cf1.) to deploy this NodeJS project by copying the pipeline script on the Jenkinsfile into the browser pipeline script section
+7. go to the browser's main page and run a build then can get the below result
 #### result :
 ![lab1.png](./images/lab1.png "This is the result of lab1")
 
