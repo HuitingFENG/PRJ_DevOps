@@ -17,7 +17,7 @@ sudo apt-get -y install git
 
 echo "Installing glibc"
 sudo apt-get update
-sudo apt-get upgrade glibc
+sudo apt-get upgrade libc6
 
 echo "Installing git-ftp"
 sudo apt-get -y install git-ftp
